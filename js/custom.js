@@ -245,12 +245,12 @@ $(document).ready(function() {
                             row._source.min_shirota && row._source.min_dolgota) {
                             var midLat = (row._source.max_shirota + row._source.min_shirota)/2;
                             var midLon = (row._source.max_dolgota + row._source.min_dolgota)/2;
-                            link = '<a href="' + 'https://pamyat-naroda.ru/documents/view/?id=' +
+                            link = '<a rel="noreferrer" href="' + 'https://pamyat-naroda.ru/documents/view/?id=' +
                                 row._id + '" target="_blank">' + row._id + '</a>' + ' <a href="https://vnr.github.io/wwii-maps/index.html#center=' + encodeURIComponent([midLat, midLon]) +
                                 '&zoom=7&type=urlMap&path=' + encodeURIComponent(row._source.image_path) +
                                 '" target="_blank">(M)</a>';
                         } else {
-                            link = '<a href="' + 'https://pamyat-naroda.ru/documents/view/?id=' +
+                            link = '<a rel="noreferrer" href="' + 'https://pamyat-naroda.ru/documents/view/?id=' +
                                 row._id + '" target="_blank">' + row._id + '</a>';
                         }
                         trHTML +=
