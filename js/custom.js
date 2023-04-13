@@ -183,7 +183,8 @@ $(document).ready(function() {
 
     var customAPI, url;
     //var API = 'http://127.0.0.1:5000/obd/';
-    var API = 'https://861lat.deta.dev/obd/';
+    //var API = 'https://861lat.deta.dev/obd/';
+    var API = 'https://first_micro-1-v0909977.deta.app/obd/';
     //var API = 'https://cdn.pamyat-naroda.ru/ind/';
     //var API = 'https://cdn.pamyatnaroda.mil.ru/ind/';
     //var API = 'https://python-flask-test-1153.appspot.com/obd/';
